@@ -6,7 +6,6 @@ bot.on('message', (message) => {
 	if (message.content == 'capi') {
 		message.channel.sendMessage('PRUEBA');
 	}
-bot.on('message', (message) => {
 	if (message.content == 'capiw') {
 		message.channel.sendMessage('PRUEBAs');
 	}
