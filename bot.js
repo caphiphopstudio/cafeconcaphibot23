@@ -10,4 +10,4 @@ bot.on('message', (message) => {
 		message.channel.sendMessage('PRUEBAs');
 	}
 });
-bot.login('NDU4MzYyODQyMDM1NTE5NTEx.Dgmj6Q.Gq4ivz9vq_LO1P6KJoalTwBr2C4');
+client.login(process.env.BOT_TOKEN);
