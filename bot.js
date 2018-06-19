@@ -6,7 +6,7 @@ bot.on('message', (message) => {
 	if (message.content == 'capi') {
 		message.channel.sendMessage('PRUEBA');
 	}
-	if (message.content == '@Cafè con Caphi#5919 di tu frase') {
+	if (message.content == '@Cafè con Caphi di tu frase') {
 		message.channel.sendMessage('PRUEBAs');
 	}
 });
