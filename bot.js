@@ -10,4 +10,5 @@ bot.on('message', (message) => {
 		message.channel.sendMessage('PRUEBAs');
 	}
 });
+
 client.login(process.env.BOT_TOKEN);
