@@ -11,7 +11,7 @@ bot.on('message', (message) => {
 	}
 	if (message.content == 'XDD') {
 		message.guild.channels.find("test2", "test2")
-			.sendMessage("blabla");
+			sendMessage("blabla");
 });
 
 bot.login(process.env.BOT_TOKEN);
