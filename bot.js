@@ -9,9 +9,11 @@ bot.on('message', (message) => {
 	if (message.content == 'XD') {
 		message.channel.send('PRUEBAs');
 	}
-	if (message.content == 'XDD') {
-		test2.send(message.content)
-	}
+	let test = message.guild.channels.find.(name,"test");
+	if (test){
+		test.send(message.content)
+	}else{console.log("Canal no encontrado")
+	     }
 });
 
 bot.login(process.env.BOT_TOKEN);
