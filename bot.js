@@ -10,7 +10,7 @@ bot.on('message', (message) => {
 		message.channel.send('PRUEBAs');
 	}
 	if (message.content == 'XDD') {
-		message.channels.get(460062843899871271).send('My Message');
+		test.send(message.content)
 	}
 });
 
