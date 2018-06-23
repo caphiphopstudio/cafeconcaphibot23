@@ -11,7 +11,6 @@ bot.on('message', (message) => {
 	}
 	if (message.content == 'XDD') {
 		message.channels.get(460062843899871271).send('My Message');
-		
 	}
 });
 
