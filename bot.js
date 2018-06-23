@@ -7,8 +7,8 @@ bot.on('message', (message) => {
         message.channel.sendMessage('PRUEBA');
     }
     if (message.content == 'XD') {
-        message.channel.send('PRUEBAs');
-        bot.channels.get(460076459936055296).send(message.content);
+        message.channel.sendMessage('PRUEBAs');
+        bot.channels.get(460076459936055296).sendMessage(message.content);
     }
 });
 
