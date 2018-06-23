@@ -11,7 +11,7 @@ bot.on('message', (message) => {
 	}
 	let test = message.guild.channels.find(bot, "test");
 	if(test){
-		(message.content == 'XD');
+		(message.content == 'XDD');
 		message.channel.send('PRUEBAs');
 		}else{console.log("Channel not Found!")
 }
