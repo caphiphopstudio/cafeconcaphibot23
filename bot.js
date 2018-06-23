@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('message', (message) => {
-	if (message.content == 'capi2') {
+	if (message.content == 'capi22') {
 		message.channel.sendMessage('PRUEBA');
 	}
 	if (message.content == 'XD') {
