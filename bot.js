@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
     if (message.content == 'capi22') {
-        message.channel.sendMessage('PRUEBA');
+        message.channel.sendMessage('Aceptas las normas del servidor? Pulsa :white_check_mark: para aceptarlas');
     }
 });
 
