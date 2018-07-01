@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('message', (message) => {
-     if (message.content == 'capi320') {
+     if (message.content == 'capi20') {
        message.channel.sendMessage('Me encanta cuando mi madre me estrangula los huevos y le pega martillazos mientras le limpio el ano despues de cagar');
     }
     if (message.content == 'capi21') {
