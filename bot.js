@@ -9,6 +9,12 @@ bot.on('message', (message) => {
     if (message.content == 'capi23') {
         message.channel.sendMessage('Vale, entiendo, entonces ¿Me comes la polla?');
     }
+    if (message.content == 'capi24') {
+        message.channel.sendMessage('Ahora dilo sin llorar');
+    }
+    if (message.content == 'capi25') {
+        message.channel.sendMessage('Ojala pudiera violarme a mi mismo');
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
