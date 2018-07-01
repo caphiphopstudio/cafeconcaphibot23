@@ -15,6 +15,18 @@ bot.on('message', (message) => {
     if (message.content == 'capi25') {
         message.channel.sendMessage('inserte mensaje para llamar la atencion, aqui');
     }
+    if (message.content == 'capi26') {
+        message.channel.sendMessage('Tu eres subnormal');
+    }
+    if (message.content == 'capi27') {
+        message.channel.sendMessage('Ojala me pudiera follar pero solo soy unos y ceros');
+    }
+    if (message.content == 'capi28') {
+        message.channel.sendMessage('Esto es tan real como su amor por ti, ninguno.');
+    }
+     if (message.content == 'capi29') {
+        message.channel.sendMessage('Llamad a la Bicicleta para que reviente algun pais.');
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
