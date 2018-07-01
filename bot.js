@@ -46,7 +46,7 @@ Luz, fuego, destrucción,
 
 La fuerza de la verdad nunca morirá,
 
-No morirá, no, no, no, no, no, no, no);
+No morirá, no, no, no, no, no, no, no');
     }
 });
 
