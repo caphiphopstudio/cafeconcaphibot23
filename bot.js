@@ -27,6 +27,12 @@ bot.on('message', (message) => {
      if (message.content == 'capi29') {
         message.channel.sendMessage('Llamad a la Bicicleta para que reviente algun pais.');
     }
+     if (message.content == 'capi30') {
+       message.channel.sendMessage('ME COMEIS TODOS LA POLLA');
+    }
+     if (message.content == 'capi31') {
+       message.channel.sendMessage('Chuti, lavate, apestas a polla mojada');
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
