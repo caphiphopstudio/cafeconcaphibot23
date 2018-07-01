@@ -3,6 +3,12 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 bot.on('message', (message) => {
+     if (message.content == 'capi320') {
+       message.channel.sendMessage('Me encanta cuando mi madre me estrangula los huevos y le pega martillazos mientras le limpio el ano despues de cagar');
+    }
+    if (message.content == 'capi21') {
+       message.channel.sendMessage('el unico nazi que ilumina es el que arde');
+    }
     if (message.content == 'capi22') {
         message.channel.sendMessage('Mira conesa, cuando quieras me comes la polla ¿ok? ok');
     }
